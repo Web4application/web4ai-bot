@@ -1,0 +1,15 @@
+mkdir web4ai-bot
+cd web4ai-bot
+
+git init
+
+mkdir -p apps/github-app/src
+mkdir -p apps/api
+mkdir -p apps/worker
+mkdir -p packages/ai-engine
+mkdir -p packages/web4-core
+mkdir -p packages/dax-parser
+mkdir -p packages/mcp-server
+mkdir -p deployments/docker
+mkdir -p deployments/kubernetes
+mkdir -p database
