@@ -1,8 +1,8 @@
+#bin/bash/env
 mkdir web4ai-bot
 cd web4ai-bot
 $ npx skills add redis/agent-skills
 git init
-
 mkdir -p apps/github-app/src
 mkdir -p apps/api
 mkdir -p apps/worker
