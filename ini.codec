@@ -1,0 +1,55 @@
+web4ai-bot/
+│
+├── apps/
+│   ├── github-app/
+│   │   ├── src/
+│   │   │   ├── index.ts
+│   │   │   ├── github.ts
+│   │   │   ├── webhooks/
+│   │   │   │   ├── issues.ts
+│   │   │   │   ├── pull_request.ts
+│   │   │   │   ├── push.ts
+│   │   │   │   └── release.ts
+│   │   │   └── commands/
+│   │   │       ├── review.ts
+│   │   │       ├── docs.ts
+│   │   │       └── security.ts
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   │
+│   ├── api/
+│   │   ├── main.py
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   └── requirements.txt
+│   │
+│   └── worker/
+│       ├── tasks.py
+│       └── queue.py
+│
+├── packages/
+│   ├── ai-engine/
+│   ├── web4-core/
+│   ├── dax-parser/
+│   ├── mcp-server/
+│   └── github-sdk/
+│
+├── database/
+│   ├── migrations/
+│   └── schema.sql
+│
+├── deployments/
+│   ├── docker/
+│   ├── kubernetes/
+│   └── nginx/
+│
+├── .github/
+│   └── workflows/
+│
+├── docs/
+│
+├── docker-compose.yml
+├── .env
+└── README.md
